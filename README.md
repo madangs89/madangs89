@@ -1,21 +1,19 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,20,24&height=280&section=header&text=MADANA%20GS&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Backend%20%7C%20AI%2FML%20%7C%20Distributed%20Systems%20Engineer&descAlignY=55&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,20,24&height=260&section=header&text=MADANA%20GS&fontSize=68&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Backend%20Developer%20%7C%20AI%2FML%20Systems&descAlignY=55&descSize=18" width="100%"/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=A78BFA&center=true&vCenter=true&width=600&lines=Backend-Focused+Software+Developer;AI+%2F+LLM+Systems+Engineer;Building+Scalable+Distributed+Architectures;Node.js+%7C+Redis+%7C+MongoDB+%7C+WebSockets" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=A78BFA&center=true&vCenter=true&width=600&lines=Backend+Developer+%7C+Node.js+%26+Redis;Building+AI-Powered+Job+Queue+Pipelines;LLM+Integration+%2B+Real-Time+Systems" alt="Typing SVG" />
 </a>
 
 <br/>
 
 ![CGPA](https://img.shields.io/badge/CGPA-8.3%2F10-6D28D9?style=flat-square&logo=bookstack&logoColor=white)
-![PUC](https://img.shields.io/badge/PUC-90.05%25-7C3AED?style=flat-square&logo=bookstack&logoColor=white)
-![Location](https://img.shields.io/badge/Location-Bengaluru,_India-8B5CF6?style=flat-square&logo=googlemaps&logoColor=white)
+![Location](https://img.shields.io/badge/Location-Bengaluru,_India-7C3AED?style=flat-square&logo=googlemaps&logoColor=white)
 
 <br/>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit_Site-5B21B6?style=for-the-badge&logo=vercel&logoColor=white)](https://github.com/madangs89)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-4C1D95?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/madangs)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-4C1D95?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/madangs89)
 [![Email](https://img.shields.io/badge/Email-Contact_Me-6D28D9?style=for-the-badge&logo=gmail&logoColor=white)](mailto:madangsnaik@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-7C3AED?style=for-the-badge&logo=github&logoColor=white)](https://github.com/madangs89)
 
@@ -29,49 +27,26 @@
 
 ---
 
-## ⟢ About Me
+## About Me
 
-```yaml
-engineer:
-  name: "Madana GS"
-  role: "Backend-Focused Software Developer"
-  focus: ["AI / LLM Systems", "Distributed Architectures", "Real-Time Infrastructure"]
-  philosophy: "Engineering reliable systems at the intersection of AI and backend infrastructure"
-```
+I'm a B.Tech CS student (CGPA 8.3) who builds backend systems for a living, mostly by accident of liking hard problems more than easy ones. My work sits at the overlap of **AI/LLM pipelines**, **real-time systems**, and **distributed backend architecture** — things like job queues, WebSocket-based services, and schema-validated AI outputs.
 
-I'm a **backend-focused software developer** building **AI-powered, real-time, and distributed systems**. My engineering identity is rooted in **production-grade backend infrastructure** — designing systems that scale, stay resilient under load, and integrate intelligently with modern LLM pipelines.
+Most of what I know comes from shipping actual projects rather than tutorials: building an AI resume pipeline that has to survive real LLM latency, designing a multi-database schema generator that has to work across five different databases, architecting a social platform split into independent services that still need to talk to each other reliably.
 
-- 🧠 **AI / ML Engineering** — LLM integration, RAG systems, schema-enforced structured output validation, prompt engineering
-- ⚙️ **Backend Architecture** — Microservices, event-driven design, job queues (Redis + BullMQ), WebSocket-based real-time systems
-- 🧩 **Full-Stack Capability** — React-based frontends backed by robust REST and OAuth2-secured APIs
-- 🚀 **Product Engineering Mindset** — Shipping end-to-end systems from schema design to deployment, with a bias toward scalability and developer experience
+I did a virtual internship with **1M1B × IBM SkillsBuild** on AI and sustainability (Dec 2025–Jan 2026), where I worked on responsible AI practices and designed RAG systems for SDG-aligned problems.
 
-<table align="center">
-<tr>
-<td>
-
-**🎯 Open To**
-
-`Backend Engineering Roles` · `AI/ML Engineering Roles` · `Full-Stack Opportunities` · `Open Source Collaboration` · `Internships & SDE Roles`
-
-</td>
-</tr>
-</table>
+**Currently open to:** Backend Engineering roles · AI/ML Engineering roles · Full-stack opportunities · Internships
 
 ---
 
-## ⟢ Tech Stack
-
-<div align="center">
+## Tech Stack
 
 **Languages**
-
 ![JavaScript](https://skillicons.dev/icons?i=javascript&theme=dark)
 ![TypeScript](https://skillicons.dev/icons?i=typescript&theme=dark)
 ![Cpp](https://skillicons.dev/icons?i=cpp&theme=dark)
 
 **Frontend**
-
 ![React](https://skillicons.dev/icons?i=react&theme=dark)
 ![Redux](https://skillicons.dev/icons?i=redux&theme=dark)
 ![TailwindCSS](https://skillicons.dev/icons?i=tailwind&theme=dark)
@@ -79,7 +54,6 @@ I'm a **backend-focused software developer** building **AI-powered, real-time, a
 ![HTML](https://skillicons.dev/icons?i=html&theme=dark)
 
 **Backend & Databases**
-
 ![Nodejs](https://skillicons.dev/icons?i=nodejs&theme=dark)
 ![Express](https://skillicons.dev/icons?i=express&theme=dark)
 ![MongoDB](https://skillicons.dev/icons?i=mongodb&theme=dark)
@@ -87,8 +61,7 @@ I'm a **backend-focused software developer** building **AI-powered, real-time, a
 ![Prisma](https://skillicons.dev/icons?i=prisma&theme=dark)
 ![Socketio](https://skillicons.dev/icons?i=socketio&theme=dark)
 
-**Cloud, DevOps & Tooling**
-
+**Tools & Platforms**
 ![Git](https://skillicons.dev/icons?i=git&theme=dark)
 ![GitHub](https://skillicons.dev/icons?i=github&theme=dark)
 ![Docker](https://skillicons.dev/icons?i=docker&theme=dark)
@@ -96,163 +69,104 @@ I'm a **backend-focused software developer** building **AI-powered, real-time, a
 ![Vercel](https://skillicons.dev/icons?i=vercel&theme=dark)
 ![VSCode](https://skillicons.dev/icons?i=vscode&theme=dark)
 
-</div>
+---
+
+## AI / LLM Work
+
+| Area | What I've Actually Done |
+|:--|:--|
+| **LLM Integration** | Used Google Gemini API to power resume rewriting and natural-language-to-schema conversion |
+| **Structured Output** | Enforced schema validation on LLM outputs so downstream systems never have to guess the shape of the response |
+| **RAG Systems** | Designed RAG systems for sustainability use cases during the 1M1B × IBM internship |
+| **Async AI Pipelines** | Decoupled LLM calls from request lifecycle using Redis + BullMQ queues, with progress streamed over Socket.IO |
+| **Prompt Engineering** | Converted natural language prompts into structured JSON schemas for backend code generation |
 
 ---
 
-## ⟢ AI / ML Expertise
-
-<div align="center">
-
-| Domain | Proficiency | Details |
-|:--|:--:|:--|
-| **LLM Integration** | ⭐⭐⭐⭐⭐ | Google Gemini API, schema-enforced structured output validation, prompt engineering pipelines |
-| **RAG Systems** | ⭐⭐⭐⭐ | Designed retrieval-augmented generation systems for sustainability and resume-intelligence use cases |
-| **Prompt Engineering** | ⭐⭐⭐⭐⭐ | Natural language → structured JSON schema conversion with deterministic, validated outputs |
-| **AI Job Orchestration** | ⭐⭐⭐⭐ | Async AI task pipelines decoupled via Redis + BullMQ worker queues with real-time progress streaming |
-| **Responsible AI** | ⭐⭐⭐⭐ | UN SDG-aligned responsible AI practices via 1M1B × IBM Skills Build internship |
-
-</div>
-
----
-
-## ⟢ Featured Projects
+## Featured Projects
 
 <details>
-<summary><b>🧠 AI Career Platform — Resume, LinkedIn & Interview Prep</b></summary>
+<summary><b>AI Career Platform — Resume, LinkedIn & Interview Prep</b></summary>
 <br/>
 
-> An end-to-end AI-powered career platform that parses resumes, rewrites content using LLMs, and prepares candidates for technical interviews — built on an async, queue-driven backend architecture.
+An AI tool that takes a resume (PDF/DOCX), parses it into structured data, and rewrites sections like skills, projects, and experience using LLM APIs — with schema-enforced validation so the output is always usable, not just plausible-looking text.
 
-| Category | Detail |
+| | |
 |:--|:--|
-| **Stack** | Node.js, Express.js, MongoDB, Redis, BullMQ, Socket.IO, Razorpay, LinkedIn OAuth |
-| **Scale** | Multi-tenant credit-based AI quota system with concurrent job processing |
-| **Performance** | Write-behind Redis caching with scheduled MongoDB bulk flushes for low-latency edits |
-| **Security** | Schema-enforced LLM output validation, OAuth-secured publishing, payment-gated AI quotas |
-| **Impact** | Decouples LLM latency from user-facing request lifecycle via async job queues |
-| **Repository** | [GitHub →](https://github.com/madangs89) |
-
-**Engineering Highlights**
-- Built an AI resume pipeline parsing PDF/DOCX into structured data, rewriting skills/projects/experience sections via LLM APIs with schema-enforced validation
-- Architected async AI job processing using Redis + BullMQ worker queues, streaming real-time progress over Socket.IO
-- Implemented write-behind Redis caching with scheduled MongoDB bulk flushes and credit-based AI quota enforcement integrated with Razorpay and LinkedIn OAuth
-- Developed an interview prep module (DSA, OOPS, DBMS, OS, CN) with per-topic progress tracking, bookmarks, and difficulty analytics
+| **Stack** | Node.js, Express, MongoDB, Redis, BullMQ, Socket.IO, Razorpay, LinkedIn OAuth |
+| **Architecture** | Async AI job processing via Redis + BullMQ worker queues, with real-time progress over Socket.IO |
+| **Data Layer** | Write-behind Redis caching for resume edits, scheduled MongoDB bulk flushes |
+| **Monetization** | Credit-based AI quota system integrated with Razorpay payments |
+| **Extra Module** | Interview prep covering DSA, OOPS, DBMS, OS, CN — with per-topic progress tracking, bookmarks, and difficulty analytics |
+| **Repo** | [GitHub →](https://github.com/madangs89) |
 
 </details>
 
 <details>
-<summary><b>⚙️ Schema Genius — Intelligent Backend Automation System</b></summary>
+<summary><b>Schema Genius — Intelligent Backend Automation System</b></summary>
 <br/>
 
-> A system that converts natural language prompts directly into structured JSON schemas and production-ready, multi-database backend codebases.
+Takes a plain-English prompt and turns it into a structured JSON schema, then generates a production-ready backend codebase from it — CRUD APIs, auth, dummy data, and a README, automatically.
 
-| Category | Detail |
+| | |
 |:--|:--|
-| **Stack** | Node.js, Socket.IO, Redis Pub/Sub, GitHub OAuth, PostgreSQL, MySQL, MongoDB, DynamoDB, Neo4j |
-| **Scale** | Multi-database schema generation across 5 database engines |
-| **Performance** | Redis-based prompt and data caching for scalable schema generation |
-| **Security** | Schema-enforced output validation, GitHub OAuth-secured repo automation |
-| **Impact** | Auto-generates CRUD APIs, auth setup, dummy data, and README — reducing backend bootstrap time |
-| **Repository** | [GitHub →](https://github.com/madangs89) · [Live →](https://github.com/madangs89) |
-
-**Engineering Highlights**
-- Built an AI system converting natural language prompts into structured JSON schemas and production-ready backend codebases
-- Engineered multi-database schema generation supporting PostgreSQL, MySQL, MongoDB, DynamoDB, and Neo4j
-- Designed real-time event-driven architecture using Socket.IO + Redis Pub/Sub for live schema editing updates
-- Integrated GitHub OAuth + REST API for one-click repo creation and automated code push
+| **Stack** | Node.js, Socket.IO, Redis Pub/Sub, GitHub OAuth |
+| **Database Support** | PostgreSQL, MySQL, MongoDB, DynamoDB, Neo4j |
+| **Real-Time Layer** | Socket.IO + Redis Pub/Sub for live schema editing updates |
+| **Repo Automation** | GitHub OAuth + REST API for one-click repo creation and automated code push |
+| **Caching** | Redis-based prompt and data caching for faster repeat generation |
+| **Repo** | [GitHub →](https://github.com/madangs89) · [Live →](https://github.com/madangs89) |
 
 </details>
 
 <details>
-<summary><b>📡 InstaClone — Real-Time Social Media Platform</b></summary>
+<summary><b>InstaClone — Real-Time Social Media Platform</b></summary>
 <br/>
 
-> A microservices-based social media platform delivering real-time messaging, stories, and notifications across independently scoped services.
+A social media backend split into independent microservices for Users, Posts, Stories, and Messaging, with real-time delivery across all of them.
 
-| Category | Detail |
+| | |
 |:--|:--|
 | **Stack** | Node.js, Microservices, Socket.IO, Redis Pub/Sub, JWT, Cloudinary |
-| **Scale** | Independent services for Users, Posts, Stories, and Messaging |
-| **Performance** | Distributed real-time messaging and notifications via Socket.IO + Redis Pub/Sub |
-| **Security** | JWT-based authentication with protected inter-service and client-server routes |
-| **Impact** | Delivered reels, stories with view tracking, likes, comments, and follow system |
-| **Repository** | [GitHub →](https://github.com/madangs89) · [Live →](https://github.com/madangs89) |
-
-**Engineering Highlights**
-- Architected a microservices backend with independent services for Users, Posts, Stories, and Messaging
-- Implemented distributed real-time messaging and notifications using Socket.IO + Redis Pub/Sub across services
-- Built JWT-based authentication enforcing secure inter-service and client-server communication; integrated Cloudinary for media uploads
-- Delivered reels, stories with view tracking, likes, comments, follow/unfollow system, and an integrated personal chatbot
+| **Real-Time** | Distributed messaging and notifications via Socket.IO + Redis Pub/Sub across services |
+| **Auth** | JWT-based authentication securing both client-server and inter-service communication |
+| **Features** | Reels, stories with view tracking, likes, comments, follow/unfollow, and an integrated chatbot |
+| **Media** | Cloudinary integration for uploads across services |
+| **Repo** | [GitHub →](https://github.com/madangs89) · [Live →](https://github.com/madangs89) |
 
 </details>
 
 ---
 
-## ⟢ Experience
+## Experience
 
-### **AI for Sustainability Virtual Intern** · 1M1B × IBM SkillsBuild (AICTE-supported)
-`DEC 2025 – JAN 2026` · Remote, Bengaluru, India
+**AI for Sustainability — Virtual Intern**
+1M1B × IBM SkillsBuild (AICTE-supported) · Remote, Bengaluru, India
+`Dec 2025 – Jan 2026`
 
-A structured internship focused on artificial intelligence, responsible AI practices, and UN SDG-aligned sustainability concepts, culminating in applied AI system design for real-world sustainability challenges.
+Completed a structured internship covering AI, responsible AI practices, and UN SDG-aligned sustainability concepts. Designed AI and RAG systems aimed at real-world sustainability problems.
 
-**Scope of Work**
-- Completed a structured curriculum on AI, responsible AI practices, and UN SDG-aligned sustainability concepts
-- Designed AI and RAG systems to address real-world sustainability problems
-
-`AI` `Responsible AI` `RAG Systems` `Sustainability` `IBM SkillsBuild`
+`AI` `Responsible AI` `RAG Systems` `Sustainability`
 
 ---
 
-## ⟢ Achievements
+## Achievements
 
-<div align="center">
-
-| 🏆 Recognition | Details |
+| Recognition | Details |
 |:--|:--|
-| **1st Place** — CosmoHack 1.0 Hackathon | Solo participant, 700+ participants |
-| **2nd Place** — Battle of Bytes Hackathon | AI-powered Resume Analysis System, among 36 teams |
-| **Honorable Mention** — Schema Genius | Recognized for innovation and system-level engineering design |
-| **Sports** | Represented local teams in 30+ Kabaddi tournaments |
-
-</div>
+| 🥇 1st Place — CosmoHack 1.0 | Solo participant, 700+ participants |
+| 🥈 2nd Place — Battle of Bytes Hackathon | AI-powered Resume Analysis System, among 36 teams |
+| 🎖️ Honorable Mention — Schema Genius | Recognized for innovation and system-level engineering design |
+| 🏐 Kabaddi | Represented local teams in 30+ tournaments |
 
 ---
 
-## ⟢ Certifications
-
-**Oracle**
-
-![Oracle](https://img.shields.io/badge/Oracle_Cloud_Infrastructure_2025-Certified_AI_Foundations_Associate-7C3AED?style=for-the-badge&logo=oracle&logoColor=white)
-
-**NPTEL**
-
-![NPTEL](https://img.shields.io/badge/NPTEL-Introduction_to_Machine_Learning-6D28D9?style=for-the-badge&logo=googlescholar&logoColor=white)
-![NPTEL](https://img.shields.io/badge/NPTEL-Intro_to_DBMS-5B21B6?style=for-the-badge&logo=googlescholar&logoColor=white)
-
----
-
-## ⟢ Coding Profiles
-
-<div align="center">
-
-[![LeetCode](https://img.shields.io/badge/LeetCode-Profile-8B5CF6?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/madangs89)
-[![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-Profile-7C3AED?style=for-the-badge&logo=geeksforgeeks&logoColor=white)](https://geeksforgeeks.org/user/madangs89)
-[![HackerRank](https://img.shields.io/badge/HackerRank-Profile-6D28D9?style=for-the-badge&logo=hackerrank&logoColor=white)](https://hackerrank.com/madangs89)
-[![CodeChef](https://img.shields.io/badge/CodeChef-Profile-5B21B6?style=for-the-badge&logo=codechef&logoColor=white)](https://codechef.com/users/madangs89)
-
-</div>
-
----
-
-## ⟢ GitHub Analytics
+## GitHub Analytics
 
 <div align="center">
 
 <img src="https://github-readme-stats.vercel.app/api?username=madangs89&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A78BFA&icon_color=8B5CF6&text_color=C9D1D9&ring_color=7C3AED" width="49%"/>
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=madangs89&theme=tokyonight&hide_border=true&background=0D1117&ring=7C3AED&fire=A78BFA&currStreakLabel=A78BFA" width="49%"/>
-
-<br/>
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=madangs89&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A78BFA&text_color=C9D1D9" width="49%"/>
 
@@ -260,7 +174,7 @@ A structured internship focused on artificial intelligence, responsible AI pract
 
 ---
 
-## ⟢ GitHub Trophies
+## GitHub Trophies
 
 <div align="center">
 
@@ -270,7 +184,7 @@ A structured internship focused on artificial intelligence, responsible AI pract
 
 ---
 
-## ⟢ Contribution Activity
+## Contribution Activity
 
 <div align="center">
 
@@ -280,47 +194,34 @@ A structured internship focused on artificial intelligence, responsible AI pract
 
 ---
 
-## ⟢ Contribution Snake
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/madangs89/madangs89/output/github-contribution-grid-snake-dark.svg" width="100%"/>
-
-</div>
-
----
-
-## ⟢ Current Focus
+## Current Focus
 
 ```yaml
-current_focus:
+focus:
   learning:
-    - Advanced distributed systems design
-    - Production-grade RAG architectures
     - System design for high-throughput backends
+    - Production-grade RAG architectures
   building:
-    - AI Career Platform (resume + interview intelligence)
+    - AI Career Platform (resume + interview prep)
     - Schema Genius (AI-driven backend automation)
   exploring:
-    - Event-driven microservices patterns
+    - Event-driven microservice patterns
     - LLM orchestration at scale
   open_to:
     - Backend Engineering roles
     - AI/ML Engineering roles
-    - Full-stack opportunities
-    - Open source collaboration
+    - Full-stack internships
 ```
 
 ---
 
-## ⟢ Connect
+## Connect
 
 <div align="center">
 
 [![Gmail](https://img.shields.io/badge/Gmail-madangsnaik@gmail.com-6D28D9?style=for-the-badge&logo=gmail&logoColor=white)](mailto:madangsnaik@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-madangs-7C3AED?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/madangs)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-madangs89-7C3AED?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/madangs89)
 [![GitHub](https://img.shields.io/badge/GitHub-madangs89-8B5CF6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/madangs89)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit_Site-5B21B6?style=for-the-badge&logo=vercel&logoColor=white)](https://github.com/madangs89)
 
 </div>
 
@@ -328,8 +229,6 @@ current_focus:
 
 <div align="center">
 
-*"Engineering systems that scale isn't about writing more code — it's about writing the right architecture."*
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,20,24&height=150&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,20,24&height=140&section=footer" width="100%"/>
 
 </div>
