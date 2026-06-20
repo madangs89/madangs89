@@ -8,7 +8,7 @@
 
 <br/>
 
-![CGPA](https://img.shields.io/badge/CGPA-8.3%2F10-6D28D9?style=flat-square&logo=bookstack&logoColor=white)
+![CGPA](https://img.shields.io/badge/CGPA-8.6%2F10-6D28D9?style=flat-square&logo=bookstack&logoColor=white)
 ![Location](https://img.shields.io/badge/Location-Bengaluru,_India-7C3AED?style=flat-square&logo=googlemaps&logoColor=white)
 
 <br/>
@@ -29,13 +29,13 @@
 
 ## About Me
 
-I'm a B.Tech CS student (CGPA 8.3) who builds backend systems for a living, mostly by accident of liking hard problems more than easy ones. My work sits at the overlap of **AI/LLM pipelines**, **real-time systems**, and **distributed backend architecture** — things like job queues, WebSocket-based services, and schema-validated AI outputs.
+I'm a CS student in Bengaluru with a habit of asking "wait, how would this actually break?" — which is mostly how I ended up in backend work instead of frontend.
 
-Most of what I know comes from shipping actual projects rather than tutorials: building an AI resume pipeline that has to survive real LLM latency, designing a multi-database schema generator that has to work across five different databases, architecting a social platform split into independent services that still need to talk to each other reliably.
+What pulls me in is the messy middle of a system: what happens when an LLM call takes 4 seconds but your user is still on the page, how five different databases can share one schema definition without someone crying, how a "social media app" is secretly four small apps pretending to be one. Backend problems are mostly invisible until they break, and then suddenly very visible — I like that part.
 
-I did a virtual internship with **1M1B × IBM SkillsBuild** on AI and sustainability (Dec 2025–Jan 2026), where I worked on responsible AI practices and designed RAG systems for SDG-aligned problems.
+I spent Dec 2025–Jan 2026 in a virtual internship with **1M1B × IBM SkillsBuild**, poking at responsible AI practices and building RAG systems aimed at sustainability problems — a nice change from job queues and CRUD APIs.
 
-**Currently open to:** Backend Engineering roles · AI/ML Engineering roles · Full-stack opportunities · Internships
+Right now I'm looking at backend, AI/ML, and full-stack roles — basically anything where I get to ask "how would this actually break?" professionally.
 
 ---
 
@@ -71,15 +71,15 @@ I did a virtual internship with **1M1B × IBM SkillsBuild** on AI and sustainabi
 
 ---
 
-## AI / LLM Work
+## Things I've Built With LLMs
 
-| Area | What I've Actually Done |
+| Area | The Actual Problem I Was Solving |
 |:--|:--|
-| **LLM Integration** | Used Google Gemini API to power resume rewriting and natural-language-to-schema conversion |
-| **Structured Output** | Enforced schema validation on LLM outputs so downstream systems never have to guess the shape of the response |
-| **RAG Systems** | Designed RAG systems for sustainability use cases during the 1M1B × IBM internship |
-| **Async AI Pipelines** | Decoupled LLM calls from request lifecycle using Redis + BullMQ queues, with progress streamed over Socket.IO |
-| **Prompt Engineering** | Converted natural language prompts into structured JSON schemas for backend code generation |
+| **LLM Integration** | Used Google Gemini to rewrite resume content — turns out "make this sound better" is a surprisingly hard prompt to get consistent |
+| **Structured Output** | Forced LLM responses into a strict schema so the rest of the app never has to guess what shape came back |
+| **RAG Systems** | Built retrieval-based systems during the 1M1B internship, pointed at sustainability questions instead of the usual chatbot demo |
+| **Async AI Pipelines** | LLM calls are slow, users don't want to stare at a spinner — so I queue the work with Redis + BullMQ and stream progress over Socket.IO instead |
+| **Prompt → Schema** | Built a pipeline that turns a plain English sentence into a working JSON schema and backend code — genuinely still feels like magic when it works |
 
 ---
 
@@ -89,15 +89,17 @@ I did a virtual internship with **1M1B × IBM SkillsBuild** on AI and sustainabi
 <summary><b>AI Career Platform — Resume, LinkedIn & Interview Prep</b></summary>
 <br/>
 
-An AI tool that takes a resume (PDF/DOCX), parses it into structured data, and rewrites sections like skills, projects, and experience using LLM APIs — with schema-enforced validation so the output is always usable, not just plausible-looking text.
+The interesting problem here: LLM calls are slow and unpredictable, but nobody wants to sit on a loading screen waiting for their resume to get rewritten. So instead of calling the LLM directly in the request, I queue the job (Redis + BullMQ), let the user keep doing other things, and stream progress back over Socket.IO as it finishes.
+
+It parses an uploaded PDF/DOCX, rewrites the skills/projects/experience sections with an LLM, and forces the output into a fixed schema so it's never just "AI rambling" — it's always something the rest of the app can actually use.
 
 | | |
 |:--|:--|
 | **Stack** | Node.js, Express, MongoDB, Redis, BullMQ, Socket.IO, Razorpay, LinkedIn OAuth |
-| **Architecture** | Async AI job processing via Redis + BullMQ worker queues, with real-time progress over Socket.IO |
-| **Data Layer** | Write-behind Redis caching for resume edits, scheduled MongoDB bulk flushes |
-| **Monetization** | Credit-based AI quota system integrated with Razorpay payments |
-| **Extra Module** | Interview prep covering DSA, OOPS, DBMS, OS, CN — with per-topic progress tracking, bookmarks, and difficulty analytics |
+| **The async problem** | Job queue decouples slow LLM work from the page the user is staring at |
+| **Data layer** | Write-behind Redis caching for edits, with scheduled MongoDB bulk flushes so writes aren't hammering the DB constantly |
+| **Payments** | Credit-based AI usage tied to Razorpay, so people pay for what they actually use |
+| **Bonus module** | An interview prep tracker (DSA, OOPS, DBMS, OS, CN) that flags your weak topics instead of just listing questions |
 | **Repo** | [GitHub →](https://github.com/madangs89) |
 
 </details>
@@ -106,15 +108,17 @@ An AI tool that takes a resume (PDF/DOCX), parses it into structured data, and r
 <summary><b>Schema Genius — Intelligent Backend Automation System</b></summary>
 <br/>
 
-Takes a plain-English prompt and turns it into a structured JSON schema, then generates a production-ready backend codebase from it — CRUD APIs, auth, dummy data, and a README, automatically.
+What if you described a backend in plain English and it just... existed? That's the question this project chases. You type something like "users have posts, posts have comments," and it generates an actual JSON schema and a working backend off of it — CRUD APIs, auth, dummy data, a README — across five different databases (PostgreSQL, MySQL, MongoDB, DynamoDB, Neo4j).
+
+The fun part was making the schema editor live: changes sync over Socket.IO + Redis Pub/Sub so multiple edits don't stomp on each other, and a GitHub OAuth integration pushes the generated code straight to a new repo.
 
 | | |
 |:--|:--|
 | **Stack** | Node.js, Socket.IO, Redis Pub/Sub, GitHub OAuth |
-| **Database Support** | PostgreSQL, MySQL, MongoDB, DynamoDB, Neo4j |
-| **Real-Time Layer** | Socket.IO + Redis Pub/Sub for live schema editing updates |
-| **Repo Automation** | GitHub OAuth + REST API for one-click repo creation and automated code push |
-| **Caching** | Redis-based prompt and data caching for faster repeat generation |
+| **Databases supported** | PostgreSQL, MySQL, MongoDB, DynamoDB, Neo4j |
+| **Live editing** | Socket.IO + Redis Pub/Sub keeps schema edits in sync in real time |
+| **Repo automation** | GitHub OAuth + REST API — one click, and the generated code lands in a new repo |
+| **Caching** | Redis caches prompts and data so regenerating doesn't redo work it's already done |
 | **Repo** | [GitHub →](https://github.com/madangs89) · [Live →](https://github.com/madangs89) |
 
 </details>
@@ -123,15 +127,17 @@ Takes a plain-English prompt and turns it into a structured JSON schema, then ge
 <summary><b>InstaClone — Real-Time Social Media Platform</b></summary>
 <br/>
 
-A social media backend split into independent microservices for Users, Posts, Stories, and Messaging, with real-time delivery across all of them.
+Cloning Instagram sounds simple until you realize it's not one app — it's four. Users, Posts, Stories, and Messaging all got split into their own services here, which meant the actual challenge wasn't the features, it was making four strangers talk to each other reliably without one going down and taking the rest with it.
+
+Messaging and notifications run on Socket.IO + Redis Pub/Sub across services in real time, JWT handles both user logins and the service-to-service trust, and Cloudinary deals with media so the app itself isn't storing images.
 
 | | |
 |:--|:--|
 | **Stack** | Node.js, Microservices, Socket.IO, Redis Pub/Sub, JWT, Cloudinary |
-| **Real-Time** | Distributed messaging and notifications via Socket.IO + Redis Pub/Sub across services |
-| **Auth** | JWT-based authentication securing both client-server and inter-service communication |
-| **Features** | Reels, stories with view tracking, likes, comments, follow/unfollow, and an integrated chatbot |
-| **Media** | Cloudinary integration for uploads across services |
+| **The hard part** | Keeping four independent services talking in real time without coupling them tightly |
+| **Auth** | JWT secures both client logins and the service-to-service requests behind the scenes |
+| **Features** | Reels, stories with view tracking, likes, comments, follow/unfollow, and a built-in chatbot |
+| **Media** | Cloudinary handles uploads so services stay lightweight |
 | **Repo** | [GitHub →](https://github.com/madangs89) · [Live →](https://github.com/madangs89) |
 
 </details>
@@ -144,7 +150,7 @@ A social media backend split into independent microservices for Users, Posts, St
 1M1B × IBM SkillsBuild (AICTE-supported) · Remote, Bengaluru, India
 `Dec 2025 – Jan 2026`
 
-Completed a structured internship covering AI, responsible AI practices, and UN SDG-aligned sustainability concepts. Designed AI and RAG systems aimed at real-world sustainability problems.
+Spent six weeks on AI and responsible AI practices, then put it to use designing RAG systems aimed at UN SDG-aligned sustainability problems — a different kind of "AI project" than the usual chatbot.
 
 `AI` `Responsible AI` `RAG Systems` `Sustainability`
 
@@ -174,16 +180,6 @@ Completed a structured internship covering AI, responsible AI practices, and UN 
 
 ---
 
-## GitHub Trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=madangs89&theme=darkhub&no-frame=true&row=1&column=7&margin-w=8" width="100%"/>
-
-</div>
-
----
-
 ## Contribution Activity
 
 <div align="center">
@@ -199,14 +195,14 @@ Completed a structured internship covering AI, responsible AI practices, and UN 
 ```yaml
 focus:
   learning:
-    - System design for high-throughput backends
-    - Production-grade RAG architectures
+    - How to design backends that don't fall over under load
+    - Better ways to structure RAG pipelines
   building:
     - AI Career Platform (resume + interview prep)
-    - Schema Genius (AI-driven backend automation)
+    - Schema Genius (prompt-to-backend generator)
   exploring:
-    - Event-driven microservice patterns
-    - LLM orchestration at scale
+    - Splitting things into services without overcomplicating them
+    - Getting more out of LLMs without burning tokens
   open_to:
     - Backend Engineering roles
     - AI/ML Engineering roles
